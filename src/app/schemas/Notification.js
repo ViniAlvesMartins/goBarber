@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import { roundToNearestMinutesWithOptions } from 'date-fns/fp';
 
 const NotificationsSchema = new mongoose.Schema(
   {
